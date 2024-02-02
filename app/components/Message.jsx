@@ -15,7 +15,7 @@ const Message = ({ message }) => {
       >
         {/* {message.text} */}
         {message.image ? (
-          <img
+          <Image
             src={message.image}
             width={50}
             height={40}
